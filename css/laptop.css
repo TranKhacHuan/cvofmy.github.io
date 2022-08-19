@@ -1,0 +1,74 @@
+/* responsive for Laptop*/
+@media (min-width: 992px) {
+  .nav-bar {
+    padding: 11px 88px;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  .infor-target {
+    padding: 30px 35px 30px 310px;
+    background-color: rgba(106, 194, 234, 0.1);
+  }
+  .infor-personal {
+    padding: 30px 100px;
+    background-color: rgba(194, 194, 194, 0.3);
+  }
+  .infor-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 30px 35px;
+  }
+
+  #job-info .job-info--item.col-lg-4{
+    width: 30% ;
+}
+.job-infor--item h1 {
+  font-size: 32px;  
+}
+
+.certificate {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.certificate-item {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  margin: 50px 20px;
+}
+.certificate-item img {
+  width: 200px;
+  height: auto;
+}
+.certificate-item--content {
+  padding-left: 15px;
+}
+.certificate-item:nth-child(2) {
+  border-left: 1px solid rgba(242, 113, 27, 0.3);
+  padding-left: 30px;
+}
+.certificate-item:nth-child(2)::after {
+  content: "";
+  background-color: rgba(242, 113, 27, 0.3);
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  top:50%;
+  left: 2%;
+}
+.project-content{
+  display: flex;
+  gap: 20px;
+}
+.project-content img{
+  width: 400px;
+  height: auto;
+}
+}
+/* responsive for Laptop*/

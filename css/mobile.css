@@ -1,0 +1,51 @@
+@media (max-width: 576px) {
+.header{
+    width: 75%;
+    background-size: cover;
+    background-position: center;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.nav-link p {
+    padding-left: 10px;
+}
+.infor-target{
+   padding: 35px ;
+}
+.infor-personal{
+    padding: 35px;
+}
+.infor-footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.hobbies{
+    flex-wrap: wrap;
+    justify-content: left !important;
+}
+.hobbies .hobbies-item {
+    padding-left: 15px !important;
+    align-items: center;
+    margin: 0 10px;
+}
+.certificate-item {
+    margin: 25px 0;
+    border-bottom: 1px solid #f5ceb4;
+}
+.footer-content{
+    display: none !important;
+}
+.footer-content-mobile{
+    display: block;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+}

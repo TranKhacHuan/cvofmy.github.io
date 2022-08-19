@@ -1,0 +1,179 @@
+/* reset css */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+/* reset css */
+
+/* global-variables */
+:root {
+  --blue: #199cdb;
+  --orange: #f5ceb4;
+  --blue-border: #d2edf9;
+}
+.blue {
+  color: #199cdb;
+}
+.bg-gray {
+  background: #f7f7f7;
+}
+
+.progress {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  border-radius: 30%;
+  background-color: #199cdb;
+}
+
+/* global-variables */
+
+.header {
+  width: 100%;
+  overflow: hidden;
+  color: #f7f7f7;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(./../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.header-banner {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.nav-link {
+  border-left: solid 1px var(--blue-border);
+  border-right: solid 1px var(--blue-border);
+}
+.icon {
+  color: var(--blue);
+}
+.infor {
+  text-align: justify;
+}
+.infor span {
+  font-weight: 700;
+}
+
+
+
+/* job-infor */
+
+.job-infor--item.title i {
+  color: #c2c2c2;
+  font-size: 50px;
+  margin-left: 47px;
+}
+#job-info ul p:first-child::before {
+  content: "\2022";
+  color: #199cdb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-top: 1em;
+}
+#job-info .job-info--item {
+  padding: 30px;
+  border: 1px solid rgba(194, 194, 194, 0.3);
+}
+#job-info .row{
+    
+    gap: 20px;
+}
+#job-info .job-info--item.col-md-4{
+    width: 30% !important;
+}
+
+
+.job-infor--item.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hobbies {
+  display: flex;
+    justify-content: center;
+}
+.hobbies .hobbies-item {
+padding-top: 30px;
+padding-left: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.hobbies .hobbies-item i {
+  border: 1px solid #199cdb;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+.hobbies .hobbies-item p {
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* job-infor */
+
+
+/* certificate */
+
+
+  
+  /* certificate */
+
+  /* projects */
+
+/* projects */
+/* footer */
+.footer-content{
+  display: flex;
+  justify-content: center;
+
+}
+.footer-content li{
+padding-left: 30px;
+}
+.footer-content i{
+  padding-right: 10px;
+  font-size: 30px;
+}
+/* footer */
